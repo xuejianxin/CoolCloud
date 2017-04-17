@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_back"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/author"
+                android:textSize="@dimen/bar_size"
+                android:layout_marginStart="20dp"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/about"
+        android:textSize="25sp"
+        android:textStyle="bold"/>   <!--加粗-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/developer"
+        android:textColor="@color/blue"
+        android:layout_marginLeft="35dp"
+        android:textSize="@dimen/title_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/blue"
+        android:layout_marginLeft="35dp"
+        android:textSize="@dimen/title_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/auto"
+        android:textColor="@color/blue"
+        android:layout_marginLeft="35dp"
+        android:textSize="@dimen/title_size"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:text="@string/introduce"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/title_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student"
+        android:textColor="@color/blue"
+        android:layout_marginLeft="35dp"
+        android:textSize="@dimen/title_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skills"
+        android:textColor="@color/blue"
+        android:layout_marginLeft="35dp"
+        android:textSize="@dimen/title_size"/>
+
+    <TextView
+        android:id="@+id/csdn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blog"
+        android:textColor="@color/blue"
+        android:layout_marginLeft="35dp"
+        android:textSize="@dimen/title_size"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/blog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/website"
+        android:textColor="@color/blue"
+        android:layout_marginLeft="35dp"
+        android:textSize="@dimen/title_size"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/github"
+        android:textColor="@color/blue"
+        android:layout_marginLeft="35dp"
+        android:textSize="@dimen/title_size"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/zhihu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:clickable="true"
+        android:text="@string/zhihu"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/title_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/http_weibo_com_5826249790_profile_topnav_1_wvr_6_is_all_1"
+        android:textColor="@color/blue"
+        android:layout_marginLeft="35dp"
+        android:textSize="@dimen/title_size"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/scan"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wechat"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deatil"
+        android:textSize="@dimen/title_size"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg_night"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_cancel"
+            android:layout_marginStart="20dp"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/broadcast"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_broadcast"
+            android:layout_marginStart="110dp"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/love"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_love"
+            android:layout_marginStart="110dp"
+            android:clickable="true"/>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你曾是少年"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:layout_marginTop="130dp"
+        android:textSize="@dimen/drawer_icon_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="好妹妹乐队"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/bar_size"/>
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp">
+
+        <ImageView
+            android:id="@+id/last"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_last_one"
+            android:layout_marginStart="20dp"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_time_out"
+            android:layout_marginStart="110dp"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_next_one"
+            android:layout_marginStart="110dp"
+            android:clickable="true"/>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="118dp">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_drive_eta"
+            android:layout_marginStart="110dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="驾驶模式"
+            android:textColor="#ffffff"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/rotate"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_phone"
+            android:layout_marginStart="100dp"/>
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>

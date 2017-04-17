@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MessageActivity"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:clickable="true"
+                android:src="@drawable/ic_back" />
+
+            <com.androxue.coolcloud.widget.DeletableEditText
+                android:id="@+id/search"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_delete"
+                android:ems="10"
+                android:hint="@string/search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:singleLine="true" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_singger" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sort"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_go" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Toolbar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search_hot"
+                android:textSize="@dimen/normal"/>
+
+        </Toolbar>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/father"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/something"
+            android:background="@drawable/btn_login_selector"
+            android:text="@string/father"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/father"
+            android:background="@drawable/btn_login_selector"
+            android:text="@string/shape_of_you"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size" />   <!--避免全部大写的情况-->
+
+        <Button
+            android:id="@+id/something"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/baby"
+            android:layout_alignBottom="@+id/baby"
+            android:layout_alignStart="@+id/met_you"
+            android:background="@drawable/btn_login_selector"
+            android:text="@string/something_just_like_this"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/baby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shape"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/something"
+            android:background="@drawable/btn_login_selector"
+            android:text="@string/baby"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/met_you"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/something"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_login_selector"
+            android:text="@string/met_you"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/xue_zhi_qian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/baby"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/something"
+            android:background="@drawable/btn_login_selector"
+            android:text="@string/xue_zhi_qian"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/chen_yi_xun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/met_you"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_login_selector"
+            android:text="@string/chen_yi_xun"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/zhpu_jie_lun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xue_zhi_qian"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/something"
+            android:background="@drawable/btn_login_selector"
+            android:text="@string/zhou_jie_lun"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/clock"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:clickable="true"
+                android:src="@drawable/ic_clock" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <com.androxue.coolcloud.widget.DeletableEditText
+            android:id="@+id/hot_search"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:drawableRight="@drawable/ic_delete_gray"
+            android:ems="10"
+            android:hint="@string/Linken_garden"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:singleLine="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/clocks"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:clickable="true"
+                android:src="@drawable/ic_clock" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <com.androxue.coolcloud.widget.DeletableEditText
+            android:id="@+id/hot_search_1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_delete_gray"
+            android:ems="10"
+            android:hint="@string/father"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:singleLine="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/myViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

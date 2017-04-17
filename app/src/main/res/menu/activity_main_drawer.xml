@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_mesage"
+            android:title="@string/message" />
+        <item
+            android:id="@+id/nav_friend"
+            android:icon="@drawable/ic_friend"
+            android:title="@string/my_friend" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_skin"
+            android:title="@string/skin" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_night_model"
+            android:title="@string/night_mode" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_scan"
+            android:title="@string/ic_scan" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_cloud"
+            android:title="@string/music_cloud" />
+        <item
+            android:id="@+id/clock"
+            android:icon="@drawable/ic_clock"
+            android:title="@string/music_clock"/>
+        <item
+            android:id="@+id/drive"
+            android:icon="@drawable/ic_drive_eta"
+            android:title="@string/drive" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/exit" />
+    </group>
+
+</menu>
