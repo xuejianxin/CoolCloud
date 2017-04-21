@@ -10,17 +10,21 @@
         android:id="@+id/recyclerview_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+
+        <com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/recyclerview"
             android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@+id/empty" />
+
         <ImageView
             android:id="@+id/empty"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_alignParentBottom="true" />
+
     </RelativeLayout>
 
     <include layout="@layout/recycler_header" />
@@ -38,6 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="350dp">
+
         <TextView
             android:id="@+id/try_again"
             android:layout_marginTop="50dp"
@@ -48,6 +53,7 @@
             android:text="请连接网络后点击屏幕重试"
             android:layout_width="match_parent"
             android:layout_height="60dp" />
+
     </FrameLayout>
 
     <FrameLayout
@@ -55,4 +61,5 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="end|bottom" />
+
 </FrameLayout>

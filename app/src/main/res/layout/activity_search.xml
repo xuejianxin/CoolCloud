@@ -27,12 +27,12 @@
                 android:id="@+id/search"
                 android:layout_width="310dp"
                 android:layout_height="wrap_content"
-                android:drawableRight="@drawable/ic_delete"
+                android:drawableEnd="@drawable/ic_delete"
                 android:ems="10"
                 android:hint="@string/search"
                 android:imeOptions="actionSearch"
                 android:inputType="text"
-                android:singleLine="true" />
+                android:maxLines="1" />
 
         </android.support.v7.widget.Toolbar>
 
@@ -152,7 +152,7 @@
             android:layout_below="@+id/baby"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:layout_toEndOf="@+id/something"
+            android:layout_toEndOf="@+id/met_you"
             android:background="@drawable/btn_login_selector"
             android:text="@string/xue_zhi_qian"
             android:textAllCaps="false"
@@ -172,13 +172,13 @@
             android:textSize="@dimen/text_size" />
 
         <Button
-            android:id="@+id/zhpu_jie_lun"
+            android:id="@+id/zhou_jie_lun"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/xue_zhi_qian"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:layout_toEndOf="@+id/something"
+            android:layout_toEndOf="@+id/chen_yi_xun"
             android:background="@drawable/btn_login_selector"
             android:text="@string/zhou_jie_lun"
             android:textAllCaps="false"
@@ -194,7 +194,8 @@
         <android.support.v7.widget.Toolbar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:weightSum="1">
+            android:weightSum="1"
+            android:id="@+id/toolbar5">
 
             <ImageView
                 android:id="@+id/clock"
@@ -207,16 +208,18 @@
 
         <com.androxue.coolcloud.widget.DeletableEditText
             android:id="@+id/hot_search"
+            android:clickable="true"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentTop="true"
-            android:drawableRight="@drawable/ic_delete_gray"
+            android:drawableEnd="@drawable/ic_delete_gray"
             android:ems="10"
             android:hint="@string/Linken_garden"
             android:imeOptions="actionSearch"
             android:inputType="text"
-            android:singleLine="true" />
+            android:maxLines="1"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/toolbar5"
+            android:layout_marginStart="0dp" />
 
     </RelativeLayout>
 
@@ -228,7 +231,8 @@
         <android.support.v7.widget.Toolbar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:weightSum="1">
+            android:weightSum="1"
+            android:id="@+id/toolbar6">
 
             <ImageView
                 android:id="@+id/clocks"
@@ -241,16 +245,18 @@
 
         <com.androxue.coolcloud.widget.DeletableEditText
             android:id="@+id/hot_search_1"
+            android:clickable="true"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:drawableRight="@drawable/ic_delete_gray"
+            android:drawableEnd="@drawable/ic_delete_gray"
             android:ems="10"
-            android:hint="@string/father"
+            android:hint="@string/cityofstar"
             android:imeOptions="actionSearch"
             android:inputType="text"
-            android:singleLine="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true" />
+            android:maxLines="1"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/toolbar6"
+            android:layout_marginStart="0dp" />
 
     </RelativeLayout>
 

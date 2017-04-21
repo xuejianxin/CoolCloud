@@ -30,13 +30,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 fresco:placeholderImage="@drawable/default_artist_ban"
-                fresco:placeholderImageScaleType="centerCrop"
-                android:layout_weight="0" />
+                fresco:placeholderImageScaleType="centerCrop" />
 
             <View
                 android:background="#79666666"
                 android:layout_width="match_parent"
                 android:layout_height="200dp" />
+
         </FrameLayout>
 
         <android.support.design.widget.TabLayout
@@ -44,6 +44,7 @@
             android:id="@+id/sliding_tabs"
             android:layout_width="match_parent"
             android:layout_height="36dp" />
+
     </LinearLayout>
 
     <ImageView

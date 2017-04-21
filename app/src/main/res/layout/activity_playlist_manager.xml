@@ -46,5 +46,6 @@
             android:src="@drawable/btmlay_icn_dlt"
             android:text="删除"
             android:textAlignment="center" />
+
     </LinearLayout>
 </RelativeLayout>

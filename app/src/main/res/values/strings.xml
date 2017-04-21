@@ -66,4 +66,6 @@
     <string name="people">认识的人（7）</string>
     <string name="start">明星用户（448）</string>
     <string name="music_people">音乐人（997）</string>
+    <string name="cityofstar">city of star</string>
+    <string name="queue_is_empty">播放队列为空</string>
 </resources>

@@ -12,7 +12,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        <com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/recyclerview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -52,6 +53,7 @@
             android:text="请连接网络后点击屏幕重试"
             android:layout_width="match_parent"
             android:layout_height="60dp" />
+
     </FrameLayout>
 
     <FrameLayout
@@ -59,4 +61,5 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="end|bottom" />
+
 </FrameLayout>

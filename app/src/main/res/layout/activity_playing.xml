@@ -72,16 +72,16 @@
                     android:id="@+id/needle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
                     android:layout_below="@+id/view_line"
-                    android:layout_marginRight="100dp"
+                    android:layout_marginEnd="100dp"
                     android:layout_marginTop="-16dp"
                     android:rotation="-30"
                     android:src="@drawable/play_needle"
                     android:transformPivotX="15.1dp"
                     android:transformPivotY="15.1dp" />
-            </RelativeLayout>
 
+            </RelativeLayout>
         </FrameLayout>
 
         <RelativeLayout
@@ -103,7 +103,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
                     android:src="@drawable/play_icn_speaker" />
 
                 <SeekBar
@@ -112,8 +112,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="40dp"
                     android:focusable="true"
                     android:maxHeight="2dp"
                     android:minHeight="2dp"
@@ -121,6 +121,7 @@
                     android:progressDrawable="@drawable/volume_seekbar"
                     android:thumb="@drawable/play_volumebar_btn"
                     android:thumbOffset="3.0dip" />
+
             </LinearLayout>
 
             <TextView
@@ -216,7 +217,7 @@
                     android:singleLine="true"
                     android:text="00:00"
                     android:textColor="@color/white_text"
-                    android:textSize="10sp" />
+                    android:textSize="@dimen/title_size" />
 
                 <com.androxue.coolcloud.widget.PlayerSeekBar
                     android:id="@+id/play_seek"
@@ -240,7 +241,7 @@
                     android:singleLine="true"
                     android:text="00:00"
                     android:textColor="@color/white_text"
-                    android:textSize="10sp" />
+                    android:textSize="@dimen/title_size" />
             </LinearLayout>
 
             <LinearLayout

@@ -94,7 +94,6 @@ public class LoodView extends FrameLayout {
         if (isAutoPlay) {
             startPlay();
         }
-
     }
 
     public void onDestroy(){
@@ -105,7 +104,6 @@ public class LoodView extends FrameLayout {
     /**
      * 开始轮播图切换
      */
-
     public void startPlay() {
         scheduledExecutorService = Executors.newSingleThreadScheduledExecutor();
         scheduledExecutorService.scheduleAtFixedRate(new LoopTask(), 1, TIME_INTERVAL, TimeUnit.SECONDS);
@@ -175,11 +173,6 @@ public class LoodView extends FrameLayout {
                 mAlbumArt.setImageURI(Uri.parse("res:/" + R.drawable.placeholder_disk_210));
             }
 
-
-            //view.setImageURI(Uri.parse(imagesID));
-
-            // view.setImageResource(imagesID);
-            // view.setImageResource(imagesID);
             mAlbumArt.setScaleType(ImageView.ScaleType.CENTER_CROP);
             imageViewList.add(mAlbumArt);
         }
@@ -342,7 +335,6 @@ public class LoodView extends FrameLayout {
                     }
                     break;
             }
-
         }
     }
 

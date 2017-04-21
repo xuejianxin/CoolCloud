@@ -12,16 +12,16 @@
     <LinearLayout
         android:id="@+id/layout_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <com.androxue.coolcloud.widget.LoodView
-            android:focusableInTouchMode="true"
-            android:focusable="true"
             android:id="@+id/loop_view"
             android:layout_width="match_parent"
             android:layout_height="160dp"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -106,8 +106,6 @@
                                 android:textSize="12sp" />
 
                         </LinearLayout>
-
-
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -136,10 +134,8 @@
                                 android:textColor="#000000"
                                 android:textSize="12sp" />
                         </LinearLayout>
-
                     </RelativeLayout>
                 </RelativeLayout>
-
             </LinearLayout>
 
             <View
@@ -155,11 +151,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <!--<include layout="@layout/recommend_playlist" />-->
-            <!--<include layout="@layout/recommend_newalbums"/>-->
-            <!--<include layout="@layout/recommend_radio"/>-->
-
-            <!--添加布局的位置-->
 
         </LinearLayout>
 
@@ -183,7 +174,7 @@
                 android:layout_marginTop="15dp"
                 android:text="现在可以根据个人喜好，自由调整首页项目顺序啦~"
                 android:textColor="#7D7D7D"
-                android:textSize="10sp" />
+                android:textSize="@dimen/text_size" />
 
             <com.bilibili.magicasakura.widgets.TintLinearLayout
                 app:imageTint="@color/theme_color_primary"

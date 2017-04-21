@@ -6,6 +6,8 @@
 
     <color name="cycle_image_bg">#44222222</color>
 
+    <color name="test_color">#696969</color>
+    <color name="small_font">#FF757575</color>
     <color name="dark">#FF222222</color>
     <color name="light">#FFEEEEEE</color>
 

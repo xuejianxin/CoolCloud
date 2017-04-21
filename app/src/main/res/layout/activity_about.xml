@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:text="@string/developer"
         android:textColor="@color/blue"
-        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
         android:textSize="@dimen/title_size"/>
 
     <TextView
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:text="@string/name"
         android:textColor="@color/blue"
-        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
         android:textSize="@dimen/title_size"/>
 
     <TextView
@@ -62,14 +62,14 @@
         android:layout_height="wrap_content"
         android:text="@string/auto"
         android:textColor="@color/blue"
-        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
         android:textSize="@dimen/title_size"/>
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
         android:text="@string/introduce"
         android:textColor="@color/blue"
         android:textSize="@dimen/title_size" />
@@ -79,7 +79,7 @@
         android:layout_height="wrap_content"
         android:text="@string/student"
         android:textColor="@color/blue"
-        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
         android:textSize="@dimen/title_size"/>
 
     <TextView
@@ -87,7 +87,7 @@
         android:layout_height="wrap_content"
         android:text="@string/skills"
         android:textColor="@color/blue"
-        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
         android:textSize="@dimen/title_size"/>
 
     <TextView
@@ -96,7 +96,7 @@
         android:layout_height="wrap_content"
         android:text="@string/blog"
         android:textColor="@color/blue"
-        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
         android:textSize="@dimen/title_size"
         android:clickable="true"/>
 
@@ -106,7 +106,7 @@
         android:layout_height="wrap_content"
         android:text="@string/website"
         android:textColor="@color/blue"
-        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
         android:textSize="@dimen/title_size"
         android:clickable="true"/>
 
@@ -116,7 +116,7 @@
         android:layout_height="wrap_content"
         android:text="@string/github"
         android:textColor="@color/blue"
-        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
         android:textSize="@dimen/title_size"
         android:clickable="true"/>
 
@@ -124,7 +124,7 @@
         android:id="@+id/zhihu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
         android:clickable="true"
         android:text="@string/zhihu"
         android:textColor="@color/blue"
@@ -135,7 +135,7 @@
         android:layout_height="wrap_content"
         android:text="@string/http_weibo_com_5826249790_profile_topnav_1_wvr_6_is_all_1"
         android:textColor="@color/blue"
-        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
         android:textSize="@dimen/title_size"/>
 
     <TextView
