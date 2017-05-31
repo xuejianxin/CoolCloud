@@ -32,14 +32,18 @@ Xue Jianxin, a sophomore student, an Android developer. From the big semester to
 | **weibo** | [weibo](http://weibo.com/5826249790/profile?topnav=1&wvr=6&is_all=1) |
 | **zhihu** | [zhihu](https://www.zhihu.com/people/jim-charles-56/activities) | 
 
-## WeChat public number
+## WeChat Public Number QR-Code
 
 <center>
-    <p><img src="http://img.my.csdn.net/uploads/201611/13/1479034739_5678.jpg" align="center"></p>
+    <p><img src="http://img.my.csdn.net/uploads/201705/16/1494900209_2602.jpg-thumb.jpg" align="center"></p>
 </center>
 
 ## Sweep the game
 
 <center>
-    <p><img src="http://img.my.csdn.net/uploads/201611/13/1479023834_4613.jpg" align="center"></p>
+    <p><img src="http://img.my.csdn.net/uploads/201705/16/1494910795_5405.png-thumb.jpg" align="center"></p>
+</center>
+
+<center>
+    <p><img src="http://img.my.csdn.net/uploads/201705/16/1494900208_9734.jpg-thumb.jpg" align="center"></p>
 </center>
